@@ -2,7 +2,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 # Apply patches
-SRC_URI += "file://can_flexcan_avoid_calling_usleep_range_from_interrupt.patch"
 SRC_URI += "file://enable_gp_enet_phy_reset.patch"
 
 # Use this defconfig instead of default one
