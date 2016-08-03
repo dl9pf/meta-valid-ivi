@@ -1,16 +1,14 @@
 diff --git a/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi b/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
-index a60955c..32ee68f 100644
+index f94e032..9488f36 100644
 --- a/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
 +++ b/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
-@@ -719,9 +719,9 @@
- 	pinctrl-names = "default";
- 	pinctrl-0 = <&pinctrl_enet>;
+@@ -732,9 +732,7 @@
+ 			      <&intc 0 119 IRQ_TYPE_LEVEL_HIGH>;
+ 	phy-handle = <&ethphy>;
  	phy-mode = "rgmii";
 -#if 0
-+
  	phy-reset-gpios = GP_ENET_PHY_RESET;
 -#endif
-+
- 	interrupts-extended = GPIRQ_ENET,
- 			      <&intc 0 119 IRQ_TYPE_LEVEL_HIGH>;
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&pinctrl_enet>;
  	status = "okay";
