@@ -14,7 +14,7 @@ INHIBIT_PACKAGE_STRIP = "1"
 
 INSANE_SKIP_${PN} = "staticdev textrel"
 
-# Specify tar file to build into image 
-SRC_URI = "file://${BP}.tar.gz"
+# Pull files from CVS
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=now"
 
-S = "${WORKDIR}/${BP}/"
+S = "${WORKDIR}/yoctofiles_${BPN}/"

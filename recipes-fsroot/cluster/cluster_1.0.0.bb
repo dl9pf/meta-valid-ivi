@@ -15,13 +15,10 @@ RRECOMMENDS_${PN}_append = "alsa-lib"
 # Add linux-imx6yocto-armle-opengles_2.0 (contains sbengine) - if we can resolve the dependancy version issues
 # DEPENDS += "linux-imx6yocto-armle-opengles"
 
-# Extracts to ${WORKDIR}/cluster/
-SRC_URI = "file://${BP}.tar.gz"
-
 # Pull files from CVS
-#SRC_URI += "cvs://bitbake@draco/electronics/cvs;port=2401;method=pserver;module=J1939;date=now"
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=now"
 
-S = "${WORKDIR}/${BP}/"
+S = "${WORKDIR}/yoctofiles_${BPN}/"
 
 ALLOW_EMPTY_${PN} = "1"
 

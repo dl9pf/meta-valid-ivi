@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/files/common-licenses/MIT;md5=0835ad
 # Skips do_compile and do_configure steps
 inherit bin_package
 
-# Identify the tar to extract
-SRC_URI = "file://${BP}.tar.gz"
+# Pull files from CVS
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=20160820"
 
-S = "${WORKDIR}/${BP}/"
+S = "${WORKDIR}/yoctofiles_${BPN}/"
