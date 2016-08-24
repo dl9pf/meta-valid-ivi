@@ -16,7 +16,7 @@ RRECOMMENDS_${PN}_append = "alsa-lib"
 # DEPENDS += "linux-imx6yocto-armle-opengles"
 
 # Pull files from CVS
-SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=now"
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};tag=v1-0-0"
 
 S = "${WORKDIR}/yoctofiles_${BPN}/"
 

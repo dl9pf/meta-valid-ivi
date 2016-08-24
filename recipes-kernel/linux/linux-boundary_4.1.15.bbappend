@@ -3,6 +3,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 # Apply patches
 SRC_URI += "file://enable_gp_enet_phy_reset.patch"
+SRC_URI += "file://enet_revert.patch"
 
 # Use this defconfig instead of default one
 SRC_URI += "file://defconfig"

@@ -7,6 +7,6 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/files/common-licenses/MIT;md5=0835ad
 inherit bin_package
 
 # Pull files from CVS
-SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=20160820"
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};tag=v1-0-0"
 
 S = "${WORKDIR}/yoctofiles_${BPN}/"

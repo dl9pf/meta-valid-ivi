@@ -15,6 +15,6 @@ INHIBIT_PACKAGE_STRIP = "1"
 INSANE_SKIP_${PN} = "staticdev textrel"
 
 # Pull files from CVS
-SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};date=now"
+SRC_URI += "cvs://${CVSPATH};port=2401;method=pserver;module=yoctofiles_${BPN};tag=v2-0"
 
 S = "${WORKDIR}/yoctofiles_${BPN}/"
