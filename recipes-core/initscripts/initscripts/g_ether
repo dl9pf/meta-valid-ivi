@@ -1,0 +1,14 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides: g_ether
+# Required-Start:    networking
+# Required-Stop:     networking
+# Default-Start:     S
+# Default-Stop:
+#
+# install with update-rc.d g_ether start 50 5 .
+#
+### END INIT INFO
+
+#dummy g_ether, do nothing
+

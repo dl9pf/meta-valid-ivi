@@ -1,0 +1,14 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides: wifi
+# Required-Start:    networking
+# Required-Stop:     networking
+# Default-Start:     S
+# Default-Stop:
+#
+# install with update-rc.d wifi start 50 5 .
+#
+### END INIT INFO
+
+#dummy wifi, do nothing
+
