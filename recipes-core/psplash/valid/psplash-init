@@ -10,5 +10,5 @@
 export TMPDIR=/mnt/.psplash
 mount tmpfs -t tmpfs $TMPDIR -o,size=40k
 
-/usr/bin/psplash -n -f 1 &
+/usr/bin/psplash -n -f 0 &
 
