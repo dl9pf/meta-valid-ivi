@@ -1,0 +1,15 @@
+diff --git a/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi b/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
+index 774c134..5639468 100644
+--- a/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
++++ b/arch/arm/boot/dts/imx6qdl-nitrogen6_som2.dtsi
+@@ -748,8 +748,8 @@
+ 		#address-cells = <0>;
+ 		#size-cells = <1>;
+ 
+-		ethphy: ethernet-phy@6 {
+-			reg = <6>;
++		ethphy: ethernet-phy@4 {
++			reg = <4>;
+ 			interrupts-extended = GPIRQ_ENET_PHY;
+ 		};
+ 	};
