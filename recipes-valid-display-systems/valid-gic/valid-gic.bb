@@ -36,7 +36,7 @@ IMAGE_INSTALL = " \
 		canutils \
 		libsocketcan \
 		linux-imx6yocto-armle-opengles \
-		psplash \
+		u-boot-boundary \
 "
 
 # Debug tweaks sets root passwd to blank
