@@ -1,6 +1,6 @@
 #use validmfg branch of u-boot instead
 
-SRCREV_mx6 = "d715e00d7f3d311127705ac626a4fab4eddab398"
+SRCREV_mx6 = "07baa07a05386bd68e756f71763313fac13eb555"
 SRCBRANCH_mx6 = "boundary-v2016.03"
 SRC_URI_mx6 = "git://github.com/validmfg/u-boot-imx6.git;branch=${SRCBRANCH}"
 
